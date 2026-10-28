@@ -31,7 +31,7 @@
 <h2>2. 정보의 저장 및 외부 전송</h2>
 <ul>
   <li>위 정보는 <b>이용자의 기기 안에서만 저장·처리</b>되며, 개발자의 서버나 제3자에게 전송되지 않습니다. 운세 계산도 기기 안에서 이루어집니다.</li>
-  <li>앱은 인터넷 접근 권한을 요청하지 않으며, 광고, 분석(애널리틱스), 충돌 수집 도구를 사용하지 않습니다.</li>
+  <li>앱은 이용자의 정보를 네트워크로 전송하는 기능이 없으며, 광고, 분석(애널리틱스), 충돌 수집 도구를 사용하지 않습니다. 앱 정보에 인터넷 접근 권한이 표시될 수 있으나, 이는 Google Play 결제 라이브러리가 결제 확인을 위해 포함하는 것으로 앱이 그 외의 용도로 사용하지 않습니다.</li>
   <li>개발자는 이용자의 생년월일, 사진 등 어떤 개인정보도 수집하거나 열람할 수 없습니다.</li>
 </ul>
 
@@ -39,7 +39,7 @@
 <p>결제는 Google Play 결제 시스템을 통해 처리됩니다. 앱은 카드 번호 등 결제 정보를 수집하거나 보관하지 않으며, 구매 여부(해제 상태)만 Google Play로부터 확인합니다. 결제 정보의 처리에는 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>이 적용됩니다.</p>
 
 <h2>4. 백업</h2>
-<p>이용자가 기기에서 Android 백업(Google 계정 백업)을 켜 둔 경우, 앱 설정 데이터가 운영체제의 백업 기능에 따라 이용자 본인의 Google 계정에 백업될 수 있습니다. 이는 운영체제가 제공하는 기능이며 개발자는 해당 데이터에 접근하지 않습니다.</p>
+<p>이용자가 기기에서 Android 백업(Google 계정 백업)을 켜 둔 경우, 앱 설정 데이터(생년월일, 위젯 설정 등)가 운영체제의 백업 기능에 따라 이용자 본인의 Google 계정에 백업될 수 있습니다. 위젯 배경 사진은 백업에서 제외됩니다. 이는 운영체제가 제공하는 기능이며 개발자는 해당 데이터에 접근하지 않습니다.</p>
 
 <h2>5. 보관 및 삭제</h2>
 <p>정보는 앱이 설치되어 있는 동안 기기에 보관됩니다. 앱을 삭제하거나 기기 설정에서 앱 데이터를 지우면 모든 정보가 삭제됩니다. 앱 안에서 생년월일 등을 다시 입력해 수정할 수도 있습니다.</p>
@@ -74,7 +74,7 @@
 <h2>2. Storage and sharing</h2>
 <ul>
   <li>All of this information is <b>stored and processed only on your device</b>. It is not sent to the developer's servers or to any third party. Fortune calculation also runs on-device.</li>
-  <li>The App does not request internet permission and contains no ads, analytics, or crash-reporting tools.</li>
+  <li>The App has no feature that sends your information over the network, and contains no ads, analytics, or crash-reporting tools. The internet permission may appear in the App's permission list because the Google Play Billing library includes it to verify purchases; the App does not use it for any other purpose.</li>
   <li>The developer cannot collect or view your date of birth, photos, or any other personal data.</li>
 </ul>
 
@@ -82,7 +82,7 @@
 <p>Purchases are handled by Google Play Billing. The App does not collect or store payment details; it only checks your purchase status with Google Play. Google's handling of payment data is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>4. Backup</h2>
-<p>If Android backup (Google account backup) is enabled on your device, the App's settings data may be backed up to your own Google account by the operating system. This is an OS feature, and the developer has no access to that data.</p>
+<p>If Android backup (Google account backup) is enabled on your device, the App's settings data (date of birth, widget settings, etc.) may be backed up to your own Google account by the operating system. The widget background photo is excluded from backups. This is an OS feature, and the developer has no access to that data.</p>
 
 <h2>5. Retention and deletion</h2>
 <p>Data stays on your device while the App is installed. Uninstalling the App or clearing its data in device settings deletes all of it. You can also change your birth information inside the App at any time.</p>
